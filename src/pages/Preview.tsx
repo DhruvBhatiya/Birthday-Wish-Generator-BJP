@@ -148,32 +148,32 @@ const Preview = () => {
 
         <Card className="max-w-3xl  mx-auto shadow-2xl border bg-white ">
           <div ref={printRef} className="print-area">
-            <p className="text-right font-semibold mb-10">તા. {convertToGujaratiDate(data.letterDate)}</p>
+            <p className="text-right mb-10">તા. {convertToGujaratiDate(data.letterDate)}</p>
 
             <p className="text-center font-bold text-red-600 mb-10">।। जीवेत शરदः शतम् ।।</p>
 
             <p className="mb-6">સ્નેહીશ્રી, {data.recipientName}</p>
 
-            <p className="mb-2">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {convertBirthDateToGujaratiFormat(data.birthDate)} તારીખે આવતા આપના જન્મદિવસ નિમિત્તે હાર્દિક શુભેચ્છાઓ...
+            <p className="mb-2 content">
+               {convertBirthDateToGujaratiFormat(data.birthDate)} તારીખે આવતા આપના જન્મદિવસ નિમિત્તે હાર્દિક શુભેચ્છાઓ...
             </p>
 
-            <p className="mb-2">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p className="mb-2 content">
+              
               જન્મદિવસ એ જીવનમાં નવી ઉર્જા, આશા અને સંકલ્પ લઈને આવે છે. આ નવા વર્ષ
               આપના માટે નવી શક્તિ, નવી પ્રેરણા અને નવી સફળતાઓ લઈને આવે તેવી અભિલાષા
               તથા જીવનના દરેક ક્ષેત્રમાં આપની ગતિ થતી રહે અને જીવનમાં આવતી દરેક પળો
               આનંદમય, મંગલમય તેમજ યશસ્વીમય બની રહે તેવી શુભેચ્છાઓ પાઠવું છું.
             </p>
 
-            <p className="mb-2">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p className="mb-2 content">
+              
               આજની પેઢી અને સમાજ માટે તમે વધુ ઉપયોગી થશો, વધુ સેવાકાર્ય કરશો અને લોકોને
               પ્રેરણા આપતા રહેશો એવી આશા સાથે..
             </p>
 
-            <p className=" mb-3">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p className=" mb-3 content">
+              
               જન્મદિનની પુનઃ હાર્દિક શુભકામનાઓ...
             </p>
 
@@ -182,7 +182,7 @@ const Preview = () => {
             </div>
 
             <div className="mt-8">
-              <div className="mb-2 text-[15px]">
+              <div className="mb-2 text-[15px] leading-[1.8]">
                 <span>પ્રતિ,</span><br />
                 <span>શ્રી {data.recipientName || "તમારો મિત્ર"}</span><br />
                 {data.address.split(',').map((part, index) => (
