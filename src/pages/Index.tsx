@@ -159,7 +159,7 @@ const Index = () => {
                 value={formData.recipientName}
                 onChange={(e) => setFormData(prev => ({ ...prev, recipientName: e.target.value }))}
                 className="border-2 border-border focus:border-primary transition-colors text-lg"
-                placeholder="Who is celebrating their birthday?"
+                placeholder="Enter birthday person's Name"
               />
             </div>
 
@@ -200,7 +200,7 @@ const Index = () => {
                 value={formData.address}
                 onChange={(e) => setFormData(prev => ({ ...prev, address: e.target.value }))}
                 className="border-2 border-border focus:border-primary transition-colors"
-                placeholder="Enter recipient's address"
+                placeholder="Enter birthday person's Address"
               />
             </div>
 

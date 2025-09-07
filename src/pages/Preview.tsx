@@ -181,15 +181,15 @@ const Preview = () => {
               <img className="ml-auto" src={sign} alt="" />
             </div>
 
-            <div className="mt-8">
-              <div className="mb-2 text-[15px] leading-[1.8]">
+           
+              <div className="mt-2 mb-2 text-[15px] leading-[1.8]">
                 <span>પ્રતિ,</span><br />
                 <span>શ્રી {data.recipientName || "તમારો મિત્ર"}</span><br />
                 {data.address.split(',').map((part, index) => (
                   <div key={index}>{part.trim()},</div>
                 ))}
               </div>
-            </div>
+          
 
 
           </div>

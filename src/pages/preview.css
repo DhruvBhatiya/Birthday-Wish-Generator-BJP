@@ -8,13 +8,15 @@ p {
 .print-area {
     background-color: #ffffff;
     color: #000000;
-    font-family: 'Noto Serif Gujarati', serif;
+    /* font-family: 'Noto Serif Gujarati', serif; */
     /* Use proper font for Gujarati if available */
     padding: 100px;
     padding-top: 300px;
     padding-bottom: 50px;
     max-width: 100%;
     width: 794px;
+  /* font-family: 'Anek Gujarati', sans-serif; */
+   font-family: 'Shruti', sans-serif;
 
 }
 

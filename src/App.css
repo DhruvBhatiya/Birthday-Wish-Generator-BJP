@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati&display=swap');
+
+
+body {
+  font-family: 'Anek Gujarati', sans-serif;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
